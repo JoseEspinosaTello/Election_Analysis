@@ -55,3 +55,10 @@ The two changes that must be made willtake place on lline 9 of the scrip.
 1. The path will need to be changed to the current path your file is currently located on your computer.
 	
 	If the path is not altered the script will look for the file in the current path linsted in the code. THis will result in an 	error as your current system will not have th e exant file path as listed in the code.
+2. The name of the file must also be changed to reflect the current election results your team would like to audit.
+
+![file_name](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/file_name.png?raw=true)
+	
+	There are two possibilities for this option. 
+		- The new file must be renamed “election_results” in order to match the current code
+		- The current file name must be changed to match the new file being used. Ex: “election_results_2022
