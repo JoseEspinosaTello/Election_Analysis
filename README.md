@@ -50,6 +50,8 @@ This script will take a .csv file named “election_results” out of the design
 
 The two changes that must be made willtake place on lline 9 of the scrip.
 
+![file_tp_load](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/file_to_load.png?raw=true)
+
 1. The path will need to be changed to the current path your file is currently located on your computer.
 
 ![file_path](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/file_path.png?raw=true)
