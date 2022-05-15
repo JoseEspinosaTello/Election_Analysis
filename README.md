@@ -6,13 +6,14 @@ Seth and Tom, two Colorado Board of Elections employees have contracted us to he
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the voter turnout per county.
-5. Calculate the percentage of votes from each county.
-6. Calculate the percentage of votes each candidate won.
-7. Determine which county had the highest voter turnout.
-8. Determine the winner of the election based on popular vote.
-9. Print the results to a text file.
+3. Get a list of the total counties.
+4. Calculate the total number of votes each candidate received.
+5. Calculate the voter turnout per county.
+6. Calculate the percentage of votes from each county.
+7. Calculate the percentage of votes each candidate won.
+8. Determine which county had the highest voter turnout.
+9. Determine the winner of the election based on popular vote.
+10. Print the results to a text file.
 
 ## Rescources
 - Data Source: election_results.csv
