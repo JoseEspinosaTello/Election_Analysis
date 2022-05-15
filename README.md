@@ -36,7 +36,7 @@ The analysis of the election show that:
 	- Raymon Anthony Doane: 3.1% (11,606)
 - The winner of the election was:
 	-Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
-![total_results](https://github.com/JoseEspinosaTello/Election_Analysis/tree/main/Resources/total_results.png?raw=true)
+![total_results](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/total_results.png?raw=true)
 ## Challenge Overview
 
 ## Challenge Summary
