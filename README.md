@@ -21,9 +21,6 @@ Seth and Tom, two Colorado Board of Elections employee have contracted us to hel
 The analysis of the election show that:
 - There was a total of 369,711 votes cast in the election.
 - Votes per county:
-	- Jefferson: 10.5% (38,855)
-	- Denver: 82.8% (306,055)
-	- Arapahoe: 6.7% (24,801)
 -The county with the largest vote turnout was:
 	- Denver with a total of 306,055 votes.
 - The candidates were:
