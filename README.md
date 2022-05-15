@@ -59,6 +59,6 @@ The two changes that must be made willtake place on lline 9 of the scrip.
 
 ![file_name](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/file_name.png?raw=true)
 	
-	There are two possibilities for this option. 
-		- The new file must be renamed “election_results” in order to match the current code
-		- The current file name must be changed to match the new file being used. Ex: “election_results_2022
+There are two possibilities for this option. 
+	- The new file must be renamed “election_results” in order to match the current code
+	- The current file name must be changed to match the new file being used. Ex: “election_results_2022
