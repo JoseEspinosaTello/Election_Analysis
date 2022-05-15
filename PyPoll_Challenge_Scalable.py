@@ -5,9 +5,18 @@
 import csv
 import os
 
+#Scalability
+#adding input box that will take the input for file path and file name
+path = str(input('Input Folder name:'))
+
+file = str(input("Input File Name:"))
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
+#original path
+#file_to_load = os.path.join("Resources", "election_results.csv")
+
+#Will take the input from end user for the path and file name
+file_to_load = os.path.join(f"{path}", f"{file}.csv")
 
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")

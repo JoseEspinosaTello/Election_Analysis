@@ -66,3 +66,26 @@ There are two possibilities for this option.
 
 - The new file must be renamed “election_results” in order to match the current code
 - The current file name must be changed to match the new file being used. Ex: “election_results_2022
+
+##Scalable Code
+
+To make this script truly scalable we can alter the code to accept inputs from the user and use these inputs to fill in the file path. This will allow the use to run this scrip on any system without altering the code. The following instruction will explain the required changes in the code.
+
+- add variables: The path and file variable will be initialized with the user input.
+
+![scal_variables](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/scal_variables.png?raw=true)
+
+- add the variables to the file_to_load path: The new input variables will be added to the os.path.join() method arguments.
+
+![scal_file_path](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/scal_file_path.png?raw=true)
+
+Once these changes are made the scrip will request an input once run. The input will request a ‘folder name’ and a ‘file name’.
+
+![scal_inputs](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/scal_inputs.png?raw=true)
+
+Then end results of the script will be exactly the same. 
+
+![scalable_code_input](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/scalable_code_input.png?raw=true)
+
+This change will provide scalability and make the file easy to use for any election board members. This will eliminate the need to learn python and change the code manually. The git hub repository will include a seperate file containing the updated code.
+
