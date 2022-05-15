@@ -52,6 +52,6 @@ The two changes that must be made willtake place on lline 9 of the scrip.
 
 ![file_path](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/file_path.png?raw=true)
 
-	1. The path will need to be changed to the current path your file is currently located on your computer.
+1. The path will need to be changed to the current path your file is currently located on your computer.
 	
 	If the path is not altered the script will look for the file in the current path linsted in the code. THis will result in an 	error as your current system will not have th e exant file path as listed in the code.
