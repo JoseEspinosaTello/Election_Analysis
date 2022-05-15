@@ -32,14 +32,15 @@ winning_percentage = 0
 
 # 2: Track the largest county and county voter turnout.
 winning_county = ""
-
 winning_votes_county = 0
 
 #had to create individual winning percentage variable for county
 #if we used the same winning_percentage variable then the wining percentage
-#in line 172 will not be 0
+#in line 173 will not be 0
 #if this is the case all statments will return false and loop will not function
 winning_percentage_county = 0
+
+
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
