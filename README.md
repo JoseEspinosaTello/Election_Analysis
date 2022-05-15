@@ -1,7 +1,8 @@
 # Election_Analysis
 
-## Project Overview
-Seth and Tom, two Colorado Board of Elections employee have contracted us to help audit the recent congressional election. They would like our company to develop a python script that will run through the election results and return the follow results.
+## Overview of Election Audit
+
+Seth and Tom, two Colorado Board of Elections employees have contracted us to help audit the recent congressional election. They would like our company to develop a python script that will run through the election results and return the follow results.
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -11,7 +12,7 @@ Seth and Tom, two Colorado Board of Elections employee have contracted us to hel
 6. Calculate the percentage of votes each candidate won.
 7. Determine which county had the highest voter turnout.
 8. Determine the winner of the election based on popular vote.
-9.Print the results to a text file.
+9. Print the results to a text file.
 
 ## Rescources
 - Data Source: election_results.csv
@@ -41,6 +42,4 @@ The analysis of the election show that:
 ![total_results](https://github.com/JoseEspinosaTello/Election_Analysis/blob/main/Resources/total_results.png?raw=true)
 
 
-## Challenge Overview
-
-## Challenge Summary
+## Election-Audit Summary
