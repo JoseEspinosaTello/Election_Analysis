@@ -16,7 +16,7 @@ file = str(input("Input File Name:"))
 #file_to_load = os.path.join("Resources", "election_results.csv")
 
 #Will take the input from end user for the path and file name
-file_to_load = os.path.join(f"{path}", f"{file}.csv")
+file_to_load = os.path.join(f"{path}", f"{file}")
 
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")

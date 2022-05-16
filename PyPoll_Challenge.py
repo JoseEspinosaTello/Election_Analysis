@@ -36,7 +36,7 @@ winning_votes_county = 0
 
 #had to create individual winning percentage variable for county
 #if we used the same winning_percentage variable then the wining percentage
-#in line 173 will not be 0
+#in line 177 will not be 0
 #if this is the case all statments will return false and loop will not function
 winning_percentage_county = 0
 
@@ -159,6 +159,10 @@ with open(file_to_save, "w") as txt_file:
 
         # Retrieve vote count and percentage
         votes = candidate_votes.get(candidate_name)
+        #alternate method to pull the value using the key
+        #if its on the right side it always pulls value of the key
+        #if you write it on the left it is creating a new key value pair
+        #votes = candidate_votes[candidate_name]
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
             f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
